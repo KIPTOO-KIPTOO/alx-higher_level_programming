@@ -63,7 +63,7 @@ class Rectangle:
     def __str__(self):
         """Return the printable representation of the Rectangle.
 
-       Represents the rectangle with the # character.
+        Represents the rectangle with the # character.
         """
         if self.__width == 0 or self.__height == 0:
             return ("")
@@ -76,7 +76,7 @@ class Rectangle:
         return ("".join(rect))
 
     def __repr__(self):
-      """Return the string representation of the Rectangle."""
+        """Return the string representation of the Rectangle."""
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
